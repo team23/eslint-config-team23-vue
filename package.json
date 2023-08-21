@@ -14,5 +14,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/team23/eslint-config-team23-vue"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-plugin-vue": "^9.17.0"
   }
 }
