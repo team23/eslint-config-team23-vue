@@ -1,0 +1,18 @@
+{
+  "name": "@team23/eslint-config-team23-vue",
+  "version": "1.0.0",
+  "description": "A set of eslint rules used by TEAM23 for Vue.js projects",
+  "main": ".eslintrc.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "vue.js",
+    "TEAM23"
+  ],
+  "author": "TEAM23 GmbH",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/team23/eslint-config-team23-vue"
+  }
+}
