@@ -32,7 +32,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
             "extends": [
                 "@team23/eslint-config-team23-vue"
             ],
-            rules: {}
+            "rules": {}
         }
     ]
 }
@@ -43,11 +43,42 @@ If you want to use a custom parser e.g. @typescript-eslint/parser, you have to a
 
 ```json
 {
-    parser: "vue-eslint-parser",
-    parserOptions: {
-        parser: "@typescript-eslint/parser",
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
     }
     [...]
+}
+```
+
+Also make sure to include the vue-eslint-config last, in order to avoid parser overrides.
+
+```json
+{
+    [...],
+    "overrides": [
+        {
+            "files": [
+                "*.ts",
+                "*.tsx",
+                "*.vue",
+            ],
+            "extends": [
+                "@team23/eslint-config-team23-ts"
+            ],
+            "rules": {}
+        },
+        {
+            "files": [
+                "*.vue",
+                "*.js"
+            ],
+            "extends": [
+                "@team23/eslint-config-team23-vue"
+            ],
+            "rules": {}
+        },
+  ],
 }
 ```
 
