@@ -14,25 +14,25 @@ npm i --save-dev @team23/eslint-config-team23-vue
 If you've enabled `eslint` locally within your project, just set your `.eslintrc.[json|js]` config to extend the rules from this repo:
 
 #### Extend Globally
-```json
+```js
 {
-    "extends": "@team23/eslint-config-team23-vue"
+    extends: '@team23/eslint-config-team23-vue'
 }
 ```
 
 #### Extend overrides
-```json
+```js
 {
-    "overrides": [
+    overrides: [
         {
-            "files": [
-                "*.vue",
-                "*.js"
+            files: [
+                '*.vue',
+                '*.js'
             ],
-            "extends": [
-                "@team23/eslint-config-team23-vue"
+            extends: [
+                '@team23/eslint-config-team23-vue'
             ],
-            "rules": {}
+            rules: {}
         }
     ]
 }
@@ -41,11 +41,11 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 #### Using a custom parser
 If you want to use a custom parser e.g. @typescript-eslint/parser, you have to additionally configure your `.eslintrc.[json|js]` like the following:
 
-```json
+```js
 {
-    "parser": "vue-eslint-parser",
-    "parserOptions": {
-        "parser": "@typescript-eslint/parser",
+    parser: 'vue-eslint-parser',
+    parserOptions: {
+        parser: '@typescript-eslint/parser',
     }
     [...]
 }
@@ -53,30 +53,30 @@ If you want to use a custom parser e.g. @typescript-eslint/parser, you have to a
 
 Also make sure to include the vue-eslint-config last, in order to avoid parser overrides.
 
-```json
+```js
 {
     [...],
-    "overrides": [
+    overrides: [
         {
-            "files": [
-                "*.ts",
-                "*.tsx",
-                "*.vue",
+            files: [
+                '*.ts',
+                '*.tsx',
+                '*.vue',
             ],
-            "extends": [
-                "@team23/eslint-config-team23-ts"
+            extends: [
+                '@team23/eslint-config-team23-ts'
             ],
-            "rules": {}
+            rules: {}
         },
         {
-            "files": [
-                "*.vue",
-                "*.js"
+            files: [
+                '*.vue',
+                '*.js'
             ],
-            "extends": [
-                "@team23/eslint-config-team23-vue"
+            extends: [
+                '@team23/eslint-config-team23-vue'
             ],
-            "rules": {}
+            rules: {}
         },
   ],
 }
@@ -84,13 +84,13 @@ Also make sure to include the vue-eslint-config last, in order to avoid parser o
 
 ### Extending the .eslintrc.json
 
-Simply add a `"rules"` key to your config, then add your overrides and additions there.
+Simply add a `'rules'` key to your config, then add your overrides and additions there.
 
-```json
+```js
 {
-    "extends": "@team23/eslint-config-team23-vue"
-    "rules": {
-        "vue/order-in-components": "off"
+    extends: '@team23/eslint-config-team23-vue'
+    rules: {
+        'vue/order-in-components': 'off'
     }
 }
 ```
