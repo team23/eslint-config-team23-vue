@@ -1,12 +1,14 @@
 {
   "name": "@team23/eslint-config-team23-vue",
-  "version": "1.0.0",
-  "description": "A set of eslint rules used by TEAM23 for Vue.js projects",
+  "version": "0.0.0",
+  "description": "A set of eslint rules used by TEAM23 for Vue 3 projects",
   "main": ".eslintrc.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint test/* --no-ignore"
+  },
   "keywords": [
     "eslint",
-    "vue.js",
+    "Vue 3",
     "TEAM23"
   ],
   "author": "TEAM23 GmbH",
@@ -16,6 +18,10 @@
     "url": "https://github.com/team23/eslint-config-team23-vue"
   },
   "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-plugin-vue": "^9.17.0"
+  },
+  "peerDependencies": {
     "eslint": "^8.47.0",
     "eslint-plugin-vue": "^9.17.0"
   }
