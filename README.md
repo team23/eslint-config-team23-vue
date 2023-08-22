@@ -9,6 +9,9 @@ Add the library to your `package.json` as `devDependency`
 npm i --save-dev @team23/eslint-config-team23-vue
 ```
 
+### Required peer dependencies
+    eslint: ^8.47.0
+
 ### Usage in your project
 
 If you've enabled `eslint` locally within your project, just set your `.eslintrc.[json|js]` config to extend the rules from this repo:
