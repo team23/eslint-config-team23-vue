@@ -35,5 +35,5 @@ task:version:update() {
     VERSION_CLEAN=$(echo $VERSION | sed 's/v//')
 
     cd .. && \
-    npm version "v${VERSION_CLEAN}" -m "feat(v${VERSION_CLEAN}): release new version"
+    npm version "v${VERSION_CLEAN}" -m "release(v${VERSION_CLEAN}): release new version"
 }
