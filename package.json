@@ -1,7 +1,7 @@
 {
   "name": "@team23/eslint-config-team23-vue",
   "version": "1.0.0",
-  "description": "A set of eslint rules used by TEAM23 for Vue 3 projects",
+  "description": "A set of eslint rules used by TEAM23 for Vue 3 TypeScript projects",
   "main": ".eslintrc.js",
   "scripts": {
     "lint": "eslint test/* --no-ignore"
@@ -24,6 +24,7 @@
     "eslint": "^8.47.0"
   },
   "dependencies": {
+    "@vue/eslint-config-typescript": "^11.0.3",
     "eslint-plugin-vue": "^9.17.0"
   }
 }

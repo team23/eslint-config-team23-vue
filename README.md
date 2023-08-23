@@ -1,6 +1,6 @@
 # eslint-config-team23-vue
 
-A set of eslint rules used by TEAM23 for Vue 3 projects.
+A set of eslint rules used by TEAM23 for Vue 3 TypeScript projects.
 
 ## Installation in your project
 Add the library to your `package.json` as `devDependency`
@@ -41,47 +41,14 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 }
 ```
 
-#### Using a custom parser
-If you want to use a custom parser e.g. @typescript-eslint/parser, you have to additionally configure your `.eslintrc.[json|js]` like the following:
+Make sure to include the vue-eslint-config last, in order to avoid parser conflicts.
 
 ```js
 {
-    parser: 'vue-eslint-parser',
-    parserOptions: {
-        parser: '@typescript-eslint/parser',
-    }
-    [...]
-}
-```
-
-Also make sure to include the vue-eslint-config last, in order to avoid parser overrides.
-
-```js
-{
-    [...],
-    overrides: [
-        {
-            files: [
-                '*.ts',
-                '*.tsx',
-                '*.vue',
-            ],
-            extends: [
-                '@team23/eslint-config-team23-ts'
-            ],
-            rules: {}
-        },
-        {
-            files: [
-                '*.vue',
-                '*.js'
-            ],
-            extends: [
-                '@team23/eslint-config-team23-vue'
-            ],
-            rules: {}
-        },
-  ],
+    extends: [
+        "@team23/eslint-config-team23-ts",
+        '@team23/eslint-config-team23-vue',
+    ],
 }
 ```
 
