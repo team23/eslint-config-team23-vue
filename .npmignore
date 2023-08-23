@@ -6,5 +6,5 @@ package-lock.json
 
 test
 build
-.gitlab-ci.yml
+.github
 .idea
