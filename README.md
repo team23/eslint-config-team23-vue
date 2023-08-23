@@ -31,7 +31,6 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
         {
             files: [
                 '*.vue',
-                '*.js'
             ],
             extends: [
                 '@team23/eslint-config-team23-vue'
@@ -39,17 +38,6 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
             rules: {}
         }
     ]
-}
-```
-
-Make sure to include the vue-eslint-config last, in order to avoid parser conflicts.
-
-```js
-{
-    extends: [
-        "@team23/eslint-config-team23-ts",
-        '@team23/eslint-config-team23-vue',
-    ],
 }
 ```
 
