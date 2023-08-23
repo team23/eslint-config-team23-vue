@@ -11,7 +11,7 @@ npm i --save-dev @team23/eslint-config-team23-vue
 
 ### Required peer dependencies
     eslint: ^8.47.0
-    typescript: ^5.1.6
+    typescript: ^4.0.0
 
 ### Usage in your project
 
