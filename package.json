@@ -18,10 +18,12 @@
     "url": "https://github.com/team23/eslint-config-team23-vue"
   },
   "devDependencies": {
-    "eslint": "^8.47.0"
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "eslint": "^8.47.0"
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "@vue/eslint-config-typescript": "^11.0.3",
