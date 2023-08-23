@@ -2,6 +2,10 @@ module.exports = {
     env: {
         node: true,
     },
+    parser: 'vue-eslint-parser',
+    parserOptions: {
+        parser: '@typescript-eslint/parser',
+    },
     overrides: [
         {
             files: [
@@ -33,7 +37,6 @@ module.exports = {
             ],
             extends: [
                 'plugin:vue/vue3-recommended',
-                '@vue/eslint-config-typescript',
             ],
             rules: {
                 'import/no-default-export': 'off',
