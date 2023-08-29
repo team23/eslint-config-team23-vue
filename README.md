@@ -10,12 +10,12 @@ npm i --save-dev @team23/eslint-config-team23-vue
 ```
 
 ### Required peer dependencies
-    @typescript-eslint/eslint-plugin: ^6.4.1,
     eslint: ^8.47.0,
     eslint-plugin-import: ^2.28.1,
     eslint-plugin-jsdoc: ^46.5.0,
     eslint-plugin-prefer-arrow: ^1.2.3,
-    typescript: ^4.0.0
+    @typescript-eslint/parser: ^6.4.1,
+    @typescript-eslint/eslint-plugin: ^6.4.1
 
 ### Usage in your project
 
