@@ -9,6 +9,8 @@ Add the library to your `package.json` as `devDependency`
 npm i --save-dev @team23/eslint-config-team23-vue
 ```
 
+This repo already includes the [eslint-config-team23-standard](https://github.com/team23/eslint-config-team23-standard) package and the [eslint-config-team23-ts](https://github.com/team23/eslint-config-team23-ts) package. No need to install them separately.
+
 ### Required peer dependencies
     eslint: ^8.47.0,
     eslint-plugin-import: ^2.28.1,
@@ -25,23 +27,6 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 ```js
 {
     extends: '@team23/eslint-config-team23-vue'
-}
-```
-
-#### Extend overrides
-```js
-{
-    overrides: [
-        {
-            files: [
-                '*.vue',
-            ],
-            extends: [
-                '@team23/eslint-config-team23-vue'
-            ],
-            rules: {}
-        }
-    ]
 }
 ```
 
