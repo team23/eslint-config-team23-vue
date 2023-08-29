@@ -30,7 +30,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 }
 ```
 
-### Extending the .eslintrc.json
+### Extending the .eslintrc.js
 
 Simply add a `'rules'` key to your config, then add your overrides and additions there.
 
