@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.0
+- Add additional rules to overrides
+
 ## v1.0.1
 - Create GitHub Actions workflow for automated publishing
 
