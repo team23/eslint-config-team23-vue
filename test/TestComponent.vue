@@ -1,17 +1,17 @@
 <template>
-  <div class="counter">
-    <h2>Counter: {{ count }}</h2>
-    <button
-      @click="increment"
-    >
-      Increment
-    </button>
-    <button
-      @click="decrement"
-    >
-      Decrement
-    </button>
-  </div>
+    <div class="counter">
+        <h2>Counter: {{ count }}</h2>
+        <button
+            @click="increment"
+        >
+            Increment
+        </button>
+        <button
+            @click="decrement"
+        >
+            Decrement
+        </button>
+    </div>
 </template>
 
 <script>
