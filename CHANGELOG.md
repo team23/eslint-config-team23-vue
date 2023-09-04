@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.1.0
+- update dependency `@team23/eslint-config-team23-standard` to `v8.2.0`
+
 ## v2.0.0
 - Add additional rules to overrides
 
