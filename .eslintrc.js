@@ -15,10 +15,12 @@ module.exports = {
             jsx: true,
         },
     },
+    plugins: ['vuejs-accessibility'],
     extends: [
         '@team23/eslint-config-team23-standard',
         '@team23/eslint-config-team23-ts',
         'plugin:vue/vue3-recommended',
+        'plugin:vuejs-accessibility/recommended',
     ],
     overrides: [
         {
