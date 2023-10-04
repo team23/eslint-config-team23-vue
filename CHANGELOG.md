@@ -1,8 +1,7 @@
 # Changelog
 
 ## v3.0.0
-- add plugin `plugin:vuejs-accessibility/recommended` for accessibility checks 
-- update dependencies (except `typescript` because of mirror update vom v4 to v5)
+- add plugin `plugin:vuejs-accessibility/recommended` for accessibility checks
 
 ## v2.1.0
 - update dependency `@team23/eslint-config-team23-standard` to `v8.2.0`
