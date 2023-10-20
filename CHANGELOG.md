@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.0.1
+- close CVE-2023-45133
+
 ## v3.0.0
 - add plugin `plugin:vuejs-accessibility/recommended` for accessibility checks
 
