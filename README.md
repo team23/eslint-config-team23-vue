@@ -3,6 +3,7 @@
 A set of eslint rules used by TEAM23 for Vue 3 TypeScript projects.
 
 ## Installation in your project
+
 Add the library to your `package.json` as `devDependency`
 
 ```bash
@@ -24,6 +25,7 @@ This repo already includes the [eslint-config-team23-standard](https://github.co
 If you've enabled `eslint` locally within your project, just set your `.eslintrc.[json|js]` config to extend the rules from this repo:
 
 #### Extend Globally
+
 ```js
 {
     extends: '@team23/eslint-config-team23-vue'
@@ -43,12 +45,19 @@ Simply add a `'rules'` key to your config, then add your overrides and additions
 }
 ```
 
+### Additional configuration
+
+- If your project relies on internationalization, you may want to add [vue/no-bare-strings-in-template](https://eslint.vuejs.org/rules/no-bare-strings-in-template) to your config.
+- It may be helpful to enable [vue/require-prop-comment](https://eslint.vuejs.org/rules/require-prop-comment) to document component interfaces.
+
 ## Development
 
 #### Rules that should be included here
+
  - vue rules
 
 #### Rules that should NOT be included here
+
  - eslint rules
  - @typescript-eslint rules
  - rules from other frameworks (angular, react), libraries (nx), etc.
@@ -76,4 +85,5 @@ If you want a brief test of this repo, do the following:
 - Run `npm run lint`
 
 ## [License](LICENSE)
+
 TEAM23 GmbH
