@@ -3,10 +3,12 @@ import { ref } from 'vue';
 
 const count = ref(0);
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const increment = () => {
   count.value++;
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const decrement = () => {
   count.value--;
 };
