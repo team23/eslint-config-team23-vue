@@ -13,12 +13,13 @@ npm i --save-dev @team23/eslint-config-team23-vue
 This repo already includes the [eslint-config-team23-standard](https://github.com/team23/eslint-config-team23-standard) package and the [eslint-config-team23-ts](https://github.com/team23/eslint-config-team23-ts) package. No need to install them separately.
 
 ### Required peer dependencies
-    eslint: ^8.47.0,
-    eslint-plugin-import: ^2.28.1,
+
+    eslint: ^8.49.0,
+    eslint-plugin-import: ^2.29.1,
     eslint-plugin-jsdoc: ^46.5.0,
     eslint-plugin-prefer-arrow: ^1.2.3,
-    @typescript-eslint/parser: ^6.4.1,
-    @typescript-eslint/eslint-plugin: ^6.4.1
+    @typescript-eslint/parser: ^6.20.0,
+    @typescript-eslint/eslint-plugin: ^6.20.0
 
 ### Usage in your project
 
