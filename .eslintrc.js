@@ -48,7 +48,7 @@ module.exports = {
         'vue/html-comment-indent': ['error', 4],
         'vue/no-empty-component-block': 'error',
         'vue/no-multiple-objects-in-class': 'error',
-        'vue/no-ref-object-reactivity-loss': 'warn', // check with manu
+        'vue/no-ref-object-reactivity-loss': 'warn',
         'vue/no-required-prop-with-default': 'error',
         'vue/no-root-v-if': 'warn',
         'vue/no-static-inline-styles': 'error',
@@ -69,8 +69,6 @@ module.exports = {
                 '*.vue',
             ],
             rules: {
-                'import/no-default-export': 'off',
-                'prefer-arrow/prefer-arrow-functions': 'off',
                 // eslint-disable-next-line no-magic-numbers
                 'vue/html-indent': ['error', 4],
             },
