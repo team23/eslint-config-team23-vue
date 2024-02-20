@@ -16,11 +16,11 @@ task:run() {
     npm run lint
  }
 
- task:version:info() {
-    cd .. && \
-    echo 'Current Package Version:'
-    node -p "require('./package.json').version"
- }
+task:version:info() {
+   cd .. && \
+   echo 'Current Package Version:'
+   node -p "require('./package.json').version"
+}
 
 # Create a new npm version
 # usage 'b5 version:update v1.0.0'
