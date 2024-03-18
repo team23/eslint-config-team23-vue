@@ -1,6 +1,6 @@
 {
   "name": "@team23/eslint-config-team23-vue",
-  "version": "3.0.1",
+  "version": "4.0.1",
   "description": "A set of eslint rules used by TEAM23 for Vue 3 TypeScript projects",
   "main": ".eslintrc.js",
   "scripts": {
@@ -18,26 +18,27 @@
     "url": "https://github.com/team23/eslint-config-team23-vue"
   },
   "dependencies": {
-    "@team23/eslint-config-team23-standard": "^8.2.0",
+    "@team23/eslint-config-team23-standard": "^8.3.0",
     "@team23/eslint-config-team23-ts": "^6.0.0",
-    "eslint-plugin-vue": "^9.17.0"
+    "eslint-plugin-vue": "^9.21.1"
   },
   "devDependencies": {
-    "eslint": "^8.47.0",
-    "eslint-plugin-import": "^2.28.1",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^46.5.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
-    "@typescript-eslint/parser": "^6.4.1",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "eslint-plugin-vuejs-accessibility": "^2.2.0",
-    "typescript": "^4.0.0"
+    "eslint-plugin-vuejs-accessibility": "^2.2.1",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.19"
   },
   "peerDependencies": {
-    "eslint": "^8.47.0",
-    "eslint-plugin-import": "^2.28.1",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^46.5.0",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "@typescript-eslint/parser": "^6.4.1",
-    "@typescript-eslint/eslint-plugin": "^6.4.1"
+    "eslint-plugin-prefer-arrow": "^1.2.3"
   }
 }

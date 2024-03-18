@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.0
+
+- Include new linting rules based upon our vue coding guidelines
+
 ## v3.0.1
 - close CVE-2023-45133
 
