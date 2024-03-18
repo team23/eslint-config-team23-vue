@@ -14,10 +14,11 @@ This repo already includes the [eslint-config-team23-standard](https://github.co
 
 ### Required peer dependencies
 
-    eslint: ^8.49.0,
+    eslint: ^8.56.0,
     eslint-plugin-import: ^2.29.1,
     eslint-plugin-jsdoc: ^46.5.0,
     eslint-plugin-prefer-arrow: ^1.2.3,
+    eslint-plugin-vuejs-accessibility: ^2.2.1
     @typescript-eslint/parser: ^6.20.0,
     @typescript-eslint/eslint-plugin: ^6.20.0
 
