@@ -2,6 +2,18 @@
 
 A set of eslint rules used by TEAM23 for Vue 3 TypeScript projects.
 
+## ⚠️ Important Notice: Migration to Monorepo ⚠️
+
+**🚨 This package has been moved to a monorepo! 🚨**
+
+As of 09.09.2024, the project has been migrated to a monorepo structure. You can now find the project at the following location:
+
+**🔗 Monorepo Path:** https://github.com/team23/style-guide/tree/main/libs/vue
+
+This move allows us to better manage shared code and collaborate efficiently. Please make sure to update your references to the new monorepo structure.
+
+If you encounter any issues or have questions, please open an issue in the new monorepo repository.
+
 ## Installation in your project
 
 Add the library to your `package.json` as `devDependency`
